@@ -11,7 +11,9 @@ function App() {
     <div className="">
       <Router>
         <Navbar />
-        {/* <div className=" mt-5 mb-5"></div> */}
+        <div
+          className=" mt-5 mb-5"
+          style={{ backgroundImage: "url(" + "/img/1.png" + ")" }}></div>
         <Switch>
           <Route exact path="/">
             <Index />

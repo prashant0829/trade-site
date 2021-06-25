@@ -93,13 +93,13 @@
   padding: 20px;
 }
 
-.text {
+/* .text {
   width: 100%;
   margin-top: 185px;
   text-transform: uppercase;
   text-align: center;
   color: white;
-}
+} */
 
 .text h4 {
   margin: 14px 0px;
@@ -171,11 +171,11 @@
 ul {
   list-style: none;
 }
-.row {
+/* .row {
   display: flex;
   flex-wrap: wrap;
   padding-right: 0px;
-}
+} */
 .footer-col {
   width: 25%;
   padding: 0 15px;
