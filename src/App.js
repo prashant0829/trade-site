@@ -11,6 +11,7 @@ function App() {
     <div className="">
       <Router>
         <Navbar />
+        {/* <div className=" mt-5 mb-5"></div> */}
         <Switch>
           <Route exact path="/">
             <Index />

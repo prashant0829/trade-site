@@ -3,11 +3,6 @@ import React from "react";
 const about = () => {
   return (
     <>
-      <div className="row">
-        <div className="col col-8">Column</div>
-        <div className="col">Column</div>
-        <div className="col">Column</div>
-      </div>
       <div className="container">
         <div class="row">
           <div class="col-md-4">
