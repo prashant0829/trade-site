@@ -4,33 +4,13 @@ import Index from "./components/Index";
 import About from "./components/About";
 import Collection from "./components/Collection";
 import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="">
       <Router>
-        <div className="menu">
-          <div className="leftmenu">
-            <h4>COMPANY NAME </h4>
-          </div>
-
-          <div className="rightmenu">
-            <ul>
-              <li id="firstlist">
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/collection">Collection</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact</Link>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Navbar />
         <Switch>
           <Route exact path="/">
             <Index />

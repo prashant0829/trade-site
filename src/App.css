@@ -351,3 +351,9 @@ ol,
 ul {
   padding-left: 0;
 }
+
+/* Prashant here */
+
+.navbar-nav {
+  margin-left: auto;
+}
