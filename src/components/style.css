@@ -31,9 +31,9 @@
 }
 .container {
   width: 100%;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   /* margin-top: 30px; */
 }
 .container .contactinfo {
