@@ -20,9 +20,9 @@ const contact = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="">
         <div className="row">
-          <div className="col col-sm-12 col-lg-6">
+          <div className="col col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="contactinfo">
               <div className="box">
                 <div className="icon">
@@ -30,11 +30,7 @@ const contact = () => {
                 </div>
                 <div className="text">
                   <h2>Address</h2>
-                  <p>
-                    Peetal-Nagri, Moradabad-244001
-                    <br />
-                    U.P, India
-                  </p>
+                  <p>Peetal-Nagri, Moradabad-244001, U.P, India</p>
                 </div>
               </div>
               <div className="box">
@@ -57,7 +53,7 @@ const contact = () => {
               </div>
             </div>
           </div>
-          <div className="col col-sm-12 col-lg-6">
+          <div className="col col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="contactForm">
               <form>
                 <h2>Send Message</h2>
