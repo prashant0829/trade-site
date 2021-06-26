@@ -7,17 +7,21 @@ const about = () => {
         <div className="text-center">
           <p class="secondary-heading">This Is Us</p>
           <p className="primary-heading">Who We Are</p>
-          <p>
-            {" "}
-            We are a quality driven artisan & exporters of premium metal/wooden
-            home-decor, garden, kitchen-ware items and other indian handicraft
-            items based from Moradabad City. Our products are designed oriented
-            and made especially for those who believe in having the best of
-            everything. We are specialised for Electro Phoretic Lacquer (E.P.L)
-            items. We have a complete in-house compliance manufacturing,
-            polishing, plating and other finishes set up in our factory. We are
-            into this handicraft industry since 1992.
-          </p>
+          <div className="row justify-content-center text-center">
+            <div className="col col-lg-6">
+              <p>
+                We are a quality driven artisan & exporters of premium
+                metal/wooden home-decor, garden, kitchen-ware items and other
+                indian handicraft items based from Moradabad City. Our products
+                are designed oriented and made especially for those who believe
+                in having the best of everything. We are specialised for Electro
+                Phoretic Lacquer (E.P.L) items. We have a complete in-house
+                compliance manufacturing, polishing, plating and other finishes
+                set up in our factory. We are into this handicraft industry
+                since 1992.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="row">
           <div class="col-md-4">
