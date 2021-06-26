@@ -99,3 +99,32 @@ ul {
 .navbar-nav {
   margin-left: auto;
 }
+/* ......homepage.... */
+.circle{
+  width: 600px;
+  height: 600px;
+  background: rgba(230, 194, 194, 0.2);
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  z-index: -1;
+}
+.landing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.lefty{
+  flex-basis: 40%;
+  max-width: 450px;
+}
+.righty{
+ flex-basis: 10%;
+ text-align: right;
+
+}
+.righty img{
+  width: 90%;
+}
