@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <div
           className=" mt-5 mb-5"
-          style={{ backgroundImage: "url(" + "/img/1.png" + ")" }}></div>
+          style={{ backgroundImage: "url(" + "/img/olia-nayda-FrxSlhpIjbw-unsplash.png" + ")" }}></div>
         <Switch>
           <Route exact path="/">
             <Index />

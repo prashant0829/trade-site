@@ -3,19 +3,16 @@ import "./style.css";
 
 const contact = () => {
   return (
-    <section className="contact">
+    <section className="contact" >
       <div className="content">
         <h2>Contact Us</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam
-          consectetur quam corrupti impedit non, ullam quidem velit suscipit
-          ratione maiores iure nam possimus, error hic facere cumque. Dolorum,
-          maxime!
+          We never compromised in our products quality because our customer's satisfaction is the biggest thing for us because we believe in good & long-lasting business relationship with any of our customers.
         </p>
       </div>
       <div className="container">
         <div className="row">
-          <div className="col col-sm-12 col-md-6">
+          <div className="col col-sm-12 col-lg-6">
             <div className="contactinfo">
               <div className="box">
                 <div className="icon">
@@ -24,11 +21,10 @@ const contact = () => {
                 <div className="text">
                   <h2>Address</h2>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Tempora eum aspernatur quisquam natus nisi animi,
-                    dignissimos quo consequatur atque iusto error reprehenderit
-                    omnis debitis deserunt mollitia hic, eligendi quaerat
-                    repellat!
+                    
+                     Peetal-Nagri, <br/>Moradabad-244001
+                     <br/>
+                     U.P, India<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugiat, vel magnam rerum a culpa nulla possimus, commodi deserunt eveniet expedita nihil suscipit similique nemo ipsam ut reprehenderit cum esse.
                   </p>
                 </div>
               </div>
@@ -38,7 +34,7 @@ const contact = () => {
                 </div>
                 <div className="text">
                   <h2>Phone</h2>
-                  <p>756-678-2349</p>
+                  <p>+91-8979660060</p>
                 </div>
               </div>
               <div className="box">
@@ -47,12 +43,12 @@ const contact = () => {
                 </div>
                 <div className="text">
                   <h2>Email</h2>
-                  <p>xyz@gmail.com</p>
+                  <p>Sales.Primexindia@outlook.com</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col col-sm-12 col-md-6">
+          <div className="col col-sm-12 col-lg-6">
             <div className="contactForm">
               <form>
                 <h2>Send Message</h2>

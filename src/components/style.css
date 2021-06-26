@@ -76,7 +76,7 @@
 }
 .contactForm h2 {
   font-size: 30px;
-  color: #333;
+  color: rgb(236, 175, 134);
   font-weight: 500;
 }
 .contactForm .inputbox {
@@ -91,9 +91,10 @@
   font-size: 16px;
   margin: 10px 0;
   border: none;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid rgb(231, 129, 82);
   outline: none;
   resize: none;
+  background-color:white;
 }
 .contactForm .inputbox span {
   position: absolute;
@@ -103,7 +104,7 @@
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
-  color: #666;
+  color: rgb(241, 145, 115);
 }
 .contactForm .inputbox input:focus ~ span,
 .contactForm .inputbox input:valid ~ span,

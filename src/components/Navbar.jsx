@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">
-            Company Name Here
+           Primex India Inc.
           </a>
           <button
             class="navbar-toggler"

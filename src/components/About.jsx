@@ -8,21 +8,16 @@ const about = () => {
           <div class="col-md-4">
             <h3 class="about-h3 text-uppercase">Who We Are</h3>
             <div class="box-padding-10">
-              <img
-                src="img/10.jpg"
-                alt=""
-                class="img-responsive img-circle about-img"
-              />
+            <img src="img/.jpg" 
+            
+            alt="" />
               <p class="text-muted about-p">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Minima, quae dicta earum et nisi aliquid totam velit? Amet
-                asperiores quis obcaecati sed reprehenderit consectetur alias
-                dolores id quisquam eos totam vitae ipsam delectus, maxime,
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                quibusdam voluptatibus dolor, rerum nesciunt nisi illum sapiente
-                vero iure reprehenderit? sapiente incidunt quia odit omnis.
-                Debitis!
-              </p>
+                We are a quality driven artisan & exporters of premium metal/wooden home-decor, garden, 
+                kitchen-ware items and other indian handicraft items based from Moradabad City.
+                Our products are designed oriented and made especially for those who believe in having 
+                the best of everything. We are specialised for Electro Phoretic Lacquer (E.P.L) items. 
+                We have a complete in-house compliance manufacturing, polishing, plating and other finishes
+                 set up in our factory. We are into this handicraft industry since 1992.</p>
             </div>
           </div>
 
@@ -57,25 +52,29 @@ const about = () => {
           </div>
 
           <div class="col-md-4">
-            <h3 class="about-h3">OPPURTUNITIES</h3>
+            <h3 class="about-h3">Our Collection Includes </h3>
             <div class="box-padding-10">
-              <p class="p-bold">Availabe Roles</p>
               <div class="box-padding-left">
                 <p class="text-muted">
-                  1. Jr./Sr. Web Developer
+                  1. Candle-Holders
                   <br />
-                  2. Graphic Designer
+                  2. Globes
                   <br />
-                  3. Web Designer
+                  3. Kitchen Ware Items
                   <br />
-                  4. Front End Developer
+                  4. Photo Frames
                   <br />
-                  5. Back End Developer
+                  5. Objects & Sculptures
                   <br />
-                  6. Database Admin
+                  6. Table-Tops
                   <br />
-                  7 .System Admin
+                  7. Hooks/Wall Items
                   <br />
+                  8. Mirrors
+                  <br/>
+                  9. Christmas Items
+                  <br/>
+                  10. Iron Wire Baskets
                 </p>
               </div>
             </div>
