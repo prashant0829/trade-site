@@ -6,14 +6,14 @@
 /* .contact {
   /* position: relative;
   min-height: 100vh; */
-  /* padding: 50px 100px;
+/* padding: 50px 100px;
   display: flex; */
-  /* justify-content: center; */
-  /* align-items: center;
+/* justify-content: center; */
+/* align-items: center;
   flex-direction: column; */
-  /* background: url(jess-bailey-q10VITrVYUM-unsplash.jpg); */
-  /* background-size: cover;
-} */ 
+/* background: url(jess-bailey-q10VITrVYUM-unsplash.jpg); */
+/* background-size: cover;
+} */
 /* Position text in the middle of the page/image */
 
 .contact .content {
@@ -44,12 +44,13 @@
 
 .container .contactinfo .box {
   position: relative;
-  padding: 20px 0;
+  padding: 0px 0 40px;
   display: flex;
+  align-items: center;
 }
 .container .contactinfo .box .icon {
-  min-width: 60px;
-  height: 60px;
+  min-width: 45px;
+  height: 45px;
   background: rgb(104, 146, 201);
   display: flex;
   justify-content: center;
@@ -59,25 +60,26 @@
 }
 .container .contactinfo .box .text {
   display: flex;
-  margin-left: 20px;
-  font-size: 16px;
-  color: rgb(69, 73, 78);
   flex-direction: column;
-  flex-direction: column;
-  font-weight: 300;
+  justify-content: center;
+  padding: 1rem;
+}
+.container .contactinfo .box .text p {
+  margin-bottom: 0px;
 }
 .container .contactinfo .box .text h2 {
   font-weight: 500;
-  color: #46668b;
+  color: #486f9c;
+  margin-bottom: 0px;
 }
 .contactForm {
   /* width: 40%; */
   padding: 20px;
   background: #fff;
 }
-.contactForm h2 {
-  font-size: 30px;
-  color: rgb(80, 113, 150);
+h2 {
+  font-size: 24px;
+  color: rgb(72, 105, 143);
   font-weight: 500;
 }
 .contactForm .inputbox {
