@@ -3,13 +3,20 @@ import "./style.css";
 
 const contact = () => {
   return (
-    <section className="container" >
+    <section className="container">
       <div className="content">
-        <p className="secondary-heading text-center" >This Is Us</p>
-        <p className="primary-heading text-center">Who we are</p>
-        <p>
-          We never compromised in our products quality because our customer's satisfaction is the biggest thing for us because we believe in good & long-lasting business relationship with any of our customers.
-        </p>
+        <p className="secondary-heading text-center">Wanna Have A Coffee</p>
+        <p className="primary-heading text-center">Contact Us</p>
+        <div className="row justify-content-center text-center">
+          <div className="col col-6">
+            <p>
+              We never compromised in our products quality because our
+              customer's satisfaction is the biggest thing for us because we
+              believe in good & long-lasting business relationship with any of
+              our customers.
+            </p>
+          </div>
+        </div>
       </div>
       <div className="container">
         <div className="row">
@@ -22,10 +29,15 @@ const contact = () => {
                 <div className="text">
                   <h2>Address</h2>
                   <p>
-                    
-                     Peetal-Nagri, <br/>Moradabad-244001
-                     <br/>
-                     U.P, India<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugiat, vel magnam rerum a culpa nulla possimus, commodi deserunt eveniet expedita nihil suscipit similique nemo ipsam ut reprehenderit cum esse.
+                    Peetal-Nagri, <br />
+                    Moradabad-244001
+                    <br />
+                    U.P, India
+                    <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                    fugiat, vel magnam rerum a culpa nulla possimus, commodi
+                    deserunt eveniet expedita nihil suscipit similique nemo
+                    ipsam ut reprehenderit cum esse.
                   </p>
                 </div>
               </div>
