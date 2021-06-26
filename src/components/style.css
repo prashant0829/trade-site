@@ -23,11 +23,11 @@
 .contact .content h2 {
   font-size: 36px;
   font-weight: 500;
-  color: rgb(121, 115, 115);
+  color: rgb(76, 145, 185);
 }
 .contact .content p {
   font-weight: 300;
-  color: rgb(121, 115, 112);
+  color: rgb(72, 81, 90);
 }
 .container {
   width: 100%;
@@ -48,7 +48,7 @@
 .container .contactinfo .box .icon {
   min-width: 60px;
   height: 60px;
-  background: rgb(90, 86, 85);
+  background: rgb(104, 146, 201);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,14 +59,14 @@
   display: flex;
   margin-left: 20px;
   font-size: 16px;
-  color: rgb(128, 113, 105);
+  color: rgb(69, 73, 78);
   flex-direction: column;
   flex-direction: column;
   font-weight: 300;
 }
 .container .contactinfo .box .text h2 {
   font-weight: 500;
-  color: #595b5c;
+  color: #3b4580;
 }
 .contactForm {
   /* width: 40%; */
@@ -75,7 +75,7 @@
 }
 .contactForm h2 {
   font-size: 30px;
-  color: rgb(100, 98, 96);
+  color: rgb(75, 63, 128);
   font-weight: 500;
 }
 .contactForm .inputbox {
@@ -124,7 +124,7 @@
 }
 @media (max-width: 991px) {
   .contact {
-    padding: 50px;
+    /* padding: 50px; */
   }
   .container {
     /* flex-direction: column; */
