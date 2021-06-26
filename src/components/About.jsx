@@ -5,8 +5,8 @@ const about = () => {
     <>
       <div className="container">
         <div className="text-center">
-          <p class="secondary-heading">Glimpse Of Our Works</p>
-          <p className="primary-heading">Our Gallery</p>
+          <p class="secondary-heading">This Is Us</p>
+          <p className="primary-heading">Who we are</p>
           <p>
             {" "}
             We are a quality driven artisan & exporters of premium metal/wooden
