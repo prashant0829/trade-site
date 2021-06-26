@@ -6,7 +6,7 @@ const contact = () => {
     <section className="container">
       <div className="content">
         <p className="secondary-heading text-center">Wanna Have A Coffee</p>
-        <p className="primary-heading text-center">Contact Us</p>
+        <p className="primary-heading text-center">We'd love to hear from you!</p>
         <div className="row justify-content-center text-center">
           <div className="col col-lg-6">
             <p>
