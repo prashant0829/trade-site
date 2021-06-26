@@ -33,9 +33,11 @@
 .collection-section img {
   width: 100%;
   border-radius: 5px;
+  
 }
 
 .collection-section div {
   box-sizing: border-box;
   padding: 10px;
+  position:relative;
 }
