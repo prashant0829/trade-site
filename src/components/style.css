@@ -39,7 +39,9 @@
 .container .contactinfo {
   display: flex;
   flex-direction: column;
+
 }
+
 .container .contactinfo .box {
   position: relative;
   padding: 0px 0 40px;
@@ -105,7 +107,7 @@ h2 {
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
-  color: rgb(80, 76, 74);
+  color: rgb(99, 124, 172);
 }
 .contactForm .inputbox input:focus ~ span,
 .contactForm .inputbox input:valid ~ span,
@@ -117,7 +119,7 @@ h2 {
 }
 .contactForm .inputbox input[type="submit"] {
   width: 100px;
-  background: #3d4886;
+  background: #4c71a8;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -133,8 +135,11 @@ h2 {
   }
   .container .contactinfo {
     width: 100%;
+
   }
   .container .contactinfo {
     /* margin-bottom: 100%; */
   }
+  
 }
+
