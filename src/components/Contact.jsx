@@ -3,9 +3,10 @@ import "./style.css";
 
 const contact = () => {
   return (
-    <section className="contact" >
+    <section className="container" >
       <div className="content">
-        <h2>Contact Us</h2>
+        <p className="secondary-heading text-center" >This Is Us</p>
+        <p className="primary-heading text-center">Who we are</p>
         <p>
           We never compromised in our products quality because our customer's satisfaction is the biggest thing for us because we believe in good & long-lasting business relationship with any of our customers.
         </p>
