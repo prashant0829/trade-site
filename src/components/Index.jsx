@@ -3,15 +3,14 @@ import React from "react";
 const index = () => {
   return (
     <div>
-      <div className="container-content">
-        
-        <h4>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam
-          accusamus ipsa repellat minima dicta deleniti sed fugiat, itaque
-          dignissimos provident, inventore totam reprehenderit delectus
-          consectetur quo excepturi, ratione consequuntur.
-        </h4>
+      <div className="circle"></div>
+      <div className="landing">
+        <div class="lefty"></div>
+        <div class="righty">
+          <img src="img/42a.jpg" style={{width:" 450px", height:"650px" }}></img>
+        </div>
       </div>
+      
     </div>
   );
 };
