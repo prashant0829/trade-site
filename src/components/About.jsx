@@ -8,7 +8,7 @@ const about = () => {
           <p class="secondary-heading">This Is Us</p>
           <p className="primary-heading">Who We Are</p>
           <div className="row justify-content-center text-center">
-            <div className="col col-lg-6">
+            <div className="col col-lg-8">
               <p>
                 We are a quality driven artisan & exporters of premium
                 metal/wooden home-decor, garden, kitchen-ware items and other
