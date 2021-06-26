@@ -5,8 +5,8 @@ const contact = () => {
   return (
     <section className="container" >
       <div className="content">
-        <p className="secondary-heading text-center" >This Is Us</p>
-        <p className="primary-heading text-center">Who we are</p>
+        <p className="secondary-heading text-center" >Contact the help team</p>
+        <p className="primary-heading text-center">We'd love to hear from you!</p>
         <p>
           We never compromised in our products quality because our customer's satisfaction is the biggest thing for us because we believe in good & long-lasting business relationship with any of our customers.
         </p>
