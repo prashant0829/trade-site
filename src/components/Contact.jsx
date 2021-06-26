@@ -8,7 +8,7 @@ const contact = () => {
         <p className="secondary-heading text-center">Wanna Have A Coffee</p>
         <p className="primary-heading text-center">Contact Us</p>
         <div className="row justify-content-center text-center">
-          <div className="col col-6">
+          <div className="col col-lg-6">
             <p>
               We never compromised in our products quality because our
               customer's satisfaction is the biggest thing for us because we
