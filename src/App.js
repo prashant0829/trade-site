@@ -13,7 +13,10 @@ function App() {
         <Navbar />
         <div
           className=" mt-5 mb-5"
-          style={{ backgroundImage: "url(" + "/img/olia-nayda-FrxSlhpIjbw-unsplash.png" + ")" }}></div>
+          style={{
+            backgroundImage:
+              "url(" + "/img/olia-nayda-FrxSlhpIjbw-unsplash.png" + ")",
+          }}></div>
         <Switch>
           <Route exact path="/">
             <Index />
@@ -31,7 +34,7 @@ function App() {
         </Switch>
       </Router>
       <footer className="footer">
-        <div className="container-footer">
+        <div className="container">
           <div className="row">
             <div className="footer-col">
               <h4>Company</h4>
