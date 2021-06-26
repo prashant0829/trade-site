@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./style.css";
 const about = () => {
   return (
     <>
@@ -25,9 +25,9 @@ const about = () => {
         </div>
         <div class="row">
           <div class="col-md-4">
-            <h3 class="about-h3 text-uppercase">Who We Are</h3>
+            <h3 class="about-h3 text-uppercase"></h3>
             <div class="box-padding-10">
-              <img src="img/.jpg" alt="" />
+              <img src="img/28.jpg" alt="" height="500px" width="350px"/>
               <p class="text-muted about-p"></p>
             </div>
           </div>

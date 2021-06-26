@@ -39,7 +39,9 @@
 .container .contactinfo {
   display: flex;
   flex-direction: column;
+
 }
+
 .container .contactinfo .box {
   position: relative;
   padding: 20px 0;
@@ -66,7 +68,7 @@
 }
 .container .contactinfo .box .text h2 {
   font-weight: 500;
-  color: #486f9c;
+  color: #46668b;
 }
 .contactForm {
   /* width: 40%; */
@@ -75,7 +77,7 @@
 }
 .contactForm h2 {
   font-size: 30px;
-  color: rgb(72, 105, 143);
+  color: rgb(80, 113, 150);
   font-weight: 500;
 }
 .contactForm .inputbox {
@@ -103,7 +105,7 @@
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
-  color: rgb(80, 76, 74);
+  color: rgb(99, 124, 172);
 }
 .contactForm .inputbox input:focus ~ span,
 .contactForm .inputbox input:valid ~ span,
@@ -115,7 +117,7 @@
 }
 .contactForm .inputbox input[type="submit"] {
   width: 100px;
-  background: #3d4886;
+  background: #4c71a8;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -131,8 +133,11 @@
   }
   .container .contactinfo {
     width: 100%;
+
   }
   .container .contactinfo {
     /* margin-bottom: 100%; */
   }
+  
 }
+
