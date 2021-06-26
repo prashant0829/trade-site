@@ -6,7 +6,9 @@ const contact = () => {
     <section className="container">
       <div className="content">
         <p className="secondary-heading text-center">Wanna Have A Coffee</p>
-        <p className="primary-heading text-center">We'd love to hear from you!</p>
+        <p className="primary-heading text-center">
+          We'd love to hear from you!
+        </p>
         <div className="row justify-content-center text-center">
           <div className="col col-lg-6">
             <p>
@@ -29,11 +31,9 @@ const contact = () => {
                 <div className="text">
                   <h2>Address</h2>
                   <p>
-                    Peetal-Nagri, <br />
-                    Moradabad-244001
+                    Peetal-Nagri, Moradabad-244001
                     <br />
                     U.P, India
-                    
                   </p>
                 </div>
               </div>
