@@ -1,5 +1,5 @@
 /* footer */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,14 +7,13 @@
 
 .container-footer {
   max-width: 1170px;
-  
+
   margin: auto;
 }
 .footer {
-  margin-top: 1080px;
+  /* margin-top: 1080px; */
   background-color: #4e5050;
   padding: 70px 0;
-  
 }
 ul {
   list-style: none;
@@ -35,8 +34,8 @@ ul {
   margin-bottom: 35px;
   font-weight: 500;
   position: relative;
-  padding-left:28px ;
-  padding-top: 200px;
+  padding-left: 28px;
+  /* padding-top: 200px; */
 }
 .footer-col h4 ::before {
   content: "";
@@ -65,7 +64,7 @@ ul {
   color: #ffffff;
   padding-left: 8px;
 }
-.footer-col .social-links a{
+.footer-col .social-links a {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -93,7 +92,6 @@ ul {
     width: 100%;
   }
 }
-
 
 /* Prashant here */
 

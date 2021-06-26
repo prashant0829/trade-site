@@ -94,7 +94,7 @@
   border-bottom: 2px solid rgb(231, 129, 82);
   outline: none;
   resize: none;
-  background-color:white;
+  background-color: white;
 }
 .contactForm .inputbox span {
   position: absolute;
@@ -128,7 +128,7 @@
     padding: 50px;
   }
   .container {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .container .contactinfo {
     width: 100%;

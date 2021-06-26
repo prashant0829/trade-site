@@ -1,57 +1,500 @@
-import React from 'react'
+import React from "react";
 import "./pic.css";
 const collection = () => {
-    return (
-    <>
-        
+  return (
     <div className="responsive">
-            <div className="gallery">
-               <img src="img/ryan-christodoulou-68CDDj03rks-unsplash.jpg"></img>
-            </div>
-        {/* </div>
-        <div className="responsive"> */}
-            <div className="gallery">
-               <img src="img/ryan-christodoulou-68CDDj03rks-unsplash.jpg" height="200" width="300"></img>
-            </div>
-        {/* </div>
-        <div className="responsive"> */}
-            <div className="gallery">
-               <img src="img/ryan-christodoulou-68CDDj03rks-unsplash.jpg" height="200" width="300"></img>
-            </div>
-        {/* </div>
-        <div className="responsive"> */}
-            <div className="gallery">
-               <img src="img/ryan-christodoulou-68CDDj03rks-unsplash.jpg" height="200" width="300"></img>
-            </div>
-        {/* </div>
-        <div className="responsive"> */}
-            <div className="gallery">
-               <img src="img/ryan-christodoulou-68CDDj03rks-unsplash.jpg" height="200" width="300"></img>
-            {/* </div>
+      <div className="container">
+        <div className="row collection-section">
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            className="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <img src="/img/1.jpg" alt="" />
+          </div>
         </div>
-        <div className="responsive"> */}
-            <div className="gallery">
-               <img src="img/ryan-christodoulou-68CDDj03rks-unsplash.jpg" height="200" width="300"></img>
-            </div>
-        {/* </div>
-        <div className="responsive"> */}
-            <div className="gallery">
-               <img src="img/ryan-christodoulou-68CDDj03rks-unsplash.jpg" height="200" width="300"></img>
-            </div>
-        {/* </div>
-        <div className="responsive"> */}
-            <div className="gallery">
-               <img src="img/ryan-christodoulou-68CDDj03rks-unsplash.jpg" height="200" width="300"></img>
-            </div>
-        {/* </div>
-        <div className="responsive"> */}
-            <div className="gallery">
-               <img src="img/ryan-christodoulou-68CDDj03rks-unsplash.jpg" height="200" width="300"></img>
-            </div>
+      </div>
     </div>
-    </>
+  );
+};
 
-    )
-}
-
-export default collection
+export default collection;
