@@ -33,11 +33,21 @@
 .collection-section img {
   width: 100%;
   border-radius: 5px;
-  
 }
 
 .collection-section div {
   box-sizing: border-box;
   padding: 10px;
-  position:relative;
+  position: relative;
+}
+
+.primary-heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.secondary-heading {
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  color: #949494;
 }

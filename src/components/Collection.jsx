@@ -2,10 +2,10 @@ import React from "react";
 import "./pic.css";
 const collection = () => {
   return (
-    <div className="responsive">
+    <div className="text-center">
+      <p class="secondary-heading">Glimpse Of Our Works</p>
+      <p className="primary-heading">Our Gallery</p>
       <div className="container">
-        <p class="secondary-heading">Glimpse Of Our Works</p>
-        <p className="primary-heading"></p>
         <div className="card-columns">
           <div className="card">
             <img src="/img/1.jpg" className="card-img-top" alt="" />
