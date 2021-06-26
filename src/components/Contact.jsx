@@ -33,11 +33,7 @@ const contact = () => {
                     Moradabad-244001
                     <br />
                     U.P, India
-                    <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                    fugiat, vel magnam rerum a culpa nulla possimus, commodi
-                    deserunt eveniet expedita nihil suscipit similique nemo
-                    ipsam ut reprehenderit cum esse.
+                    
                   </p>
                 </div>
               </div>
