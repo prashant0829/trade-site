@@ -3,20 +3,19 @@ import React from "react";
 const index = () => {
   return (
     <div>
-      <div className="circle"></div>
-      <div className="landing">
-        <div class="lefty"></div>
-        <div class="righty">
-          <img
-            src="img/42a.jpg"
-            style={{ width: " 450px", height: "650px" }}></img>
-        </div>
+     
+      
+        <div
+        class="index"
+        style={{ backgroundImage: `url("/img/32.jpg")` }}>
+        <div className="index-bar">We Focus on Building Relationships & Providing Best Quality to Our Buyers.</div>
       </div>
+     
 
       <div
         class="parallax"
         style={{ backgroundImage: `url("/img/parallax.jpg")` }}>
-        <div className="parallax-text">Hello There I am</div>
+        <div className="parallax-text">Welcome to PRIMEX INDIA</div>
       </div>
     </div>
   );

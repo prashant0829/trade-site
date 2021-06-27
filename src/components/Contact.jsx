@@ -3,7 +3,7 @@ import "./style.css";
 
 const contact = () => {
   return (
-    <section className="container">
+    <section className="container"><br/>
       <div className="content">
         <p className="secondary-heading text-center">Wanna Have A Coffee</p>
         <p className="primary-heading text-center">

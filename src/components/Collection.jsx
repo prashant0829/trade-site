@@ -2,63 +2,63 @@ import React from "react";
 import "./pic.css";
 const collection = () => {
   return (
-    <div className="text-center">
+    <div className="text-center"><br/>
       <p class="secondary-heading">Glimpse Of Our Works</p>
       <p className="primary-heading">Our Gallery</p>
       <div className="container">
         <div className="card-columns">
           <div className="card">
-            <img src="/img/1.jpg" className="card-img-top" alt="" />
+            <img src="/img/21a.jpg" className="card-img-top" alt="" />
           </div>
           <div className="card">
-            <img src="/img/2.jpg" className="card-img-top" alt="" />
+            <img src="/img/2a.jpg" className="card-img-top" alt="" />
           </div>
           <div className="card">
-            <img src="/img/4.jpg" className="card-img-top" alt="" />
+            <img src="/img/3a.jpg" className="card-img-top" alt="" />
           </div>
           <div className="card">
-            <img src="/img/3.jpg" className="card-img-top" alt="" />
+            <img src="/img/4a.jpg" className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src="/img/5a.jpg" className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src="/img/6a.jpg" className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src="/img/7a.jpg" className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src="/img/8a.jpg" className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src="/img/9a.jpg" className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src="/img/10a.jpg" className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src="/img/11a.jpg" className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src="/img/12a.jpg" className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src="/img/13a.jpg" className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src="/img/15a.jpg" className="card-img-top" alt="" />
           </div>
           {/* <div className="card">
-            <img src="/img/5.jpg" className="card-img-top" alt="" />
+            <img src="/img/15a.jpg" className="card-img-top" alt="" />
           </div> */}
-          <div className="card">
-            <img src="/img/6.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
-            <img src="/img/7.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
-            <img src="/img/8.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
-            <img src="/img/9.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
-            <img src="/img/10.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
-            <img src="/img/11.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
-            <img src="/img/12.jpg" className="card-img-top" alt="" />
-          </div>
           {/* <div className="card">
-            <img src="/img/13.jpg" className="card-img-top" alt="" />
+            <img src="/img/20a.jpg" className="card-img-top" alt="" />
           </div> */}
           {/* <div className="card">
-            <img src="/img/14.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
-            <img src="/img/15.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
-            <img src="/img/16.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
-            <img src="/img/17.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
+            <img src="/img/17a.jpg" className="card-img-top" alt="" />
+          </div> */}
+          {/* <div className="card">
             <img src="/img/18.jpg" className="card-img-top" alt="" />
           </div>
           <div className="card">
@@ -171,7 +171,7 @@ const collection = () => {
 
 export default collection;
 
-{
+{ 
   /* <div className="row collection-section">
           <div
             data-aos="fade-up"
