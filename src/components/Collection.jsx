@@ -19,9 +19,9 @@ const collection = () => {
           <div className="card">
             <img src="/img/3.jpg" className="card-img-top" alt="" />
           </div>
-          <div className="card">
+          {/* <div className="card">
             <img src="/img/5.jpg" className="card-img-top" alt="" />
-          </div>
+          </div> */}
           <div className="card">
             <img src="/img/6.jpg" className="card-img-top" alt="" />
           </div>
@@ -43,10 +43,10 @@ const collection = () => {
           <div className="card">
             <img src="/img/12.jpg" className="card-img-top" alt="" />
           </div>
-          <div className="card">
+          {/* <div className="card">
             <img src="/img/13.jpg" className="card-img-top" alt="" />
-          </div>
-          <div className="card">
+          </div> */}
+          {/* <div className="card">
             <img src="/img/14.jpg" className="card-img-top" alt="" />
           </div>
           <div className="card">
@@ -162,7 +162,7 @@ const collection = () => {
           </div>
           <div className="card">
             <img src="/img/52.jpg" className="card-img-top" alt="" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
