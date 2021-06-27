@@ -27,7 +27,7 @@ const about = () => {
           <div class="col-md-4">
             <h3 class="about-h3 text-uppercase"></h3>
             <div class="box-padding-10">
-              <img src="img/28.jpg" alt="" height="500px" width="350px" />
+              {/* <img src="img/28.jpg" alt="" height="500px" width="350px" /> */}
               <p class="text-muted about-p"></p>
             </div>
           </div>
