@@ -5,9 +5,9 @@ const Navbar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="nav-container">
+        <div class="container">
           <a class="navbar-brand" href="#">
-           Primex India Inc.
+            Primex India Inc.
           </a>
           <button
             class="navbar-toggler"
@@ -23,7 +23,7 @@ const Navbar = () => {
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="#">
-                  <Link style={{ textDecoration: "none" }} to="/home">
+                  <Link style={{ textDecoration: "none" }} to="/">
                     Home
                   </Link>
                 </a>
