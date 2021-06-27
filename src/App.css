@@ -100,7 +100,7 @@ ul {
   margin-left: auto;
 }
 /* ......homepage.... */
-.circle{
+.circle {
   width: 600px;
   height: 600px;
   background: rgba(230, 194, 194, 0.2);
@@ -110,21 +110,43 @@ ul {
   right: 10%;
   z-index: -1;
 }
-.landing{
+.landing {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-.lefty{
+.lefty {
   flex-basis: 40%;
   max-width: 450px;
 }
-.righty{
- flex-basis: 10%;
- text-align: right;
-
+.righty {
+  flex-basis: 10%;
+  text-align: right;
 }
-.righty img{
+.righty img {
   width: 90%;
+}
+
+.parallax {
+  /* background-image: url(""); */
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parallax-text {
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  min-width: 60%;
+  background-color: #f5deb35c;
 }
