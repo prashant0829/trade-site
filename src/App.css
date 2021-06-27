@@ -78,7 +78,7 @@ ul {
   transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover {
-  color: #24262b;
+  color: #27282b;
   background-color: #ffffff;
 }
 /* responsive */
@@ -98,7 +98,97 @@ ul {
 
 .navbar-nav {
   margin-left: auto;
+} 
+/* .nav-container{
+  background-color: #555657;
+  display:flow-root;
+  padding: 0 10%;
 }
+.navbar-brand{
+  display: table;
+  float: left;
+  vertical-align: middle;
+  padding: 0%;
+  color:white;
+ 
+  width: 180px;
+  height: 68px;
+  position: relative;
+  z-index: 9;
+  transition:all 0.5s;
+ 
+}
+.navbar-brand:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    z-index: -1;
+    right: -50px;
+    width: 50%;
+    transform:skew(30deg);
+    background-color: #3c3d41;
+}
+.navbar-brand:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  z-index: -1;
+  right: 10%;
+  width: 2000px;
+  background-color: #3c3d41;
+}
+.navbar-brand a{
+  color: #bbbbbb;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 70px;
+  text-decoration: none;
+}
+.navbar-nav ul li{
+  display: inline-block;
+  line-height: 70px;
+  border-radius: 14px;
+  
+}
+.navbar-nav li.active a{
+  color: #ffffff;
+  background-color: #3d4e7e;
+  border-radius:14px ;
+  
+}
+.navbar-nav li a{
+ padding: 15px 87px;
+ border: 0;
+ margin-bottom: 0px;
+ font-size: 16px;
+ font-weight: 500;
+ color: #bbbbbb;
+ opacity: 1;
+ text-decoration: none;
+ transition: all 0.5s;
+ border-radius: 11px;
+
+}
+.navbar-nav li:hover a{
+  color: #68aee7;
+  background-color: #f0f2f7;
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+}
+@media(max-width:1250px){
+  /* .nav-container{
+    padding: 0 2%;
+  }
+  .navbar-nav li a{
+    padding: 15px 20;
+  } */
+
+
 /* ......homepage.... */
 .circle{
   width: 600px;
