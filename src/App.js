@@ -8,31 +8,20 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="">
-      <Router>
-        <Navbar />
-        <div
-          className=" mt-5 mb-5"
-          style={{
-            backgroundImage:
-              "url(" + "/img/olia-nayda-FrxSlhpIjbw-unsplash.png" + ")",
-          }}></div>
-        <Switch>
-          <Route exact path="/">
-            <Index />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route path="/collection">
-            <Collection />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/">404</Route>
-        </Switch>
-      </Router>
+    <div className="" style={{ scrollBehavior: "smooth" }}>
+      <Navbar className="" />
+      <div id="index">
+        <Index />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="collection">
+        <Collection />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
       <footer className="footer">
         <div className="container">
           <div className="row">
