@@ -8,7 +8,7 @@ const index = () => {
         <div
         class="index"
         style={{ backgroundImage: `url("/img/32.jpg")` }}>
-        <div className="index-bar">We Focus on Building Relationships & Providing Best Quality to Our Buyers.</div>
+        <div className="index-bar"><h3 class="text">We Focus on Building Relationships & Providing Best Quality to Our Buyers.</h3></div>
       </div>
      
 
