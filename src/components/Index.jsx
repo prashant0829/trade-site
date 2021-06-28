@@ -15,7 +15,7 @@ const index = () => {
       <div
         class="parallax"
         style={{ backgroundImage: `url("/img/parallax.jpg")` }}>
-        <div className="parallax-text">Welcome to PRIMEX INDIA</div>
+        <div className="parallax-text">Welcome to Primex india</div>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import "./pic.css";
 const collection = () => {
   return (
-    <div className="text-center"><br/>
+    <div className="text-center"><br/><br/><br/>
       <p class="secondary-heading">Glimpse Of Our Works</p>
       <p className="primary-heading">Our Gallery</p>
       <div className="container">

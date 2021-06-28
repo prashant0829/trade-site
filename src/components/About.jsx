@@ -4,7 +4,7 @@ const about = () => {
   return (
     <>
       <div className="container">
-        <div className="text-center"><br/><br/>
+        <div className="text-center"><br/><br/><br/>
           <p class="secondary-heading">This Is Us</p>
           <p className="primary-heading">Since 1992</p>
           <div className="row justify-content-center text-center">
@@ -41,27 +41,29 @@ const about = () => {
             <h3 class="about-h3">WHAT WE DO</h3>
             <div class="box-padding-10">
               <div class="text-muted"><br/>
-              <p> We worship quality. At Primex India,
-                the skilled craftsmen
+              <p> At Primex India,the skilled craftsmen
               create handcrafted products to the highest level.
-              To give our customers utmost satisfaction, we 
-              provide customization facility to all our clients. 
-              In customization, we try to understand the exact 
-              specifications and requirements of our clients and 
-              then we design & develop it accordingly.
+              To give our customers utmost satisfaction, we
+              provide customization facility to all our clients.
+               We are a highly regarded
+               Import and Export Consultancy dedicated to providing 
+               various types of products and services.
+             
               <br/>
-                We specialize in the manufacturing
-                 of high quality Products. We are endowed 
-                 with a group of experienced and talented craftsman,
-                who makes various designs, colors and patterns.
-                Quality is our utmost motto. Our products undergo 
-                stringent quality checks at various levels of production.
+               We ensure accurate communication when planning orders 
+               together with our customers and suppliers, with the 
+               aim of securing a consistent cooperation. We are a highly regarded
+               Import and Export Consultancy dedicated to providing 
+               various types of products and services.
+                 We worship quality.
               <br/>
-                For many years we have been in this trade, 
-                hence a wide experience. The research and 
-                design section of ours are supervised by our 
-                senior partners. We assure you of the best 
-                quality products and at the most appropriate prices.
+                  We are specialized in the 
+                  most exclusive high-end products.We provide efficient 
+                services due to our vast network, 
+                allowing us to meet most of our customer's demands
+                 with the highest quality possible. We incorporate a customer-focused approach,
+                  ensuring effective communication and customer loyalty, while 
+                  applying a service program that serves the needs of our buyers.
               </p>
               </div>
             </div>
@@ -95,8 +97,7 @@ const about = () => {
               </div>
             </div>
           </div>
-      
-        </div>     
+        </div>
       </div>
     </>
   );
