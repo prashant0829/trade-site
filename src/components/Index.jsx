@@ -28,14 +28,18 @@ const index = () => {
                 minHeight: "300px",
                 backgroundSize: "cover",
               }}>
-              <div className="product-text-w text-center"><h4><b>WOODEN ITEMS</b></h4>
-
-                <p>Kitchen-Ware Items</p>
-                <p>Accent Furniture</p>
-                <p>Photo Frames</p>
-                <p>Wall Arts</p>
-             </div>
+              <div className="product-text-w text-center">
+                <div>
+                  <h3>
+                    <b>WOODEN ITEMS</b>
+                  </h3>
+                  <p>Kitchen-Ware Items</p>
+                  <p>Accent Furniture</p>
+                  <p>Photo Frames</p>
+                  <p>Wall Arts</p>
+                </div>
               </div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
             <div
@@ -45,13 +49,18 @@ const index = () => {
                 minHeight: "300px",
                 backgroundSize: "cover",
               }}>
-              <div className="product-text-c"><h4><b>COPPER ITEMS</b></h4>
-              <ul >
-                <li>Candle - Holders</li>
-                <li>Wire Baskets</li>
-                <li>Mirrors</li>
-                 <li>Globes</li>
-              </ul></div>
+              <div className="product-text-c text-center">
+                <div>
+                  <h3>
+                    <b>COPPER ITEMS</b>
+                  </h3>
+
+                  <p>Candle - Holders</p>
+                  <p>Wire Baskets</p>
+                  <p>Mirrors</p>
+                  <p>Globes</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
@@ -62,14 +71,20 @@ const index = () => {
                 minHeight: "300px",
                 backgroundSize: "cover",
               }}>
-              <div className="product-text-cp"><h4><b>BRASS ITEMS</b></h4>
-              <ul >
-                <li>Objects & Sculptures</li>
-                <li>Christmas Items</li>
-                <li>Planters</li>
-                <li>Vases</li>
-              </ul></div>
+              <div className="product-text-cp">
+                <div>
+                  <h3>
+                    <b>BRASS ITEMS</b>
+                  </h3>
+                  <div>
+                    <p>Objects & Sculptures</p>
+                    <p>Christmas Items</p>
+                    <p>Planters</p>
+                    <p>Vases</p>
+                  </div>
+                </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
