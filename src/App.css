@@ -15,7 +15,7 @@
 /*********************index page********************* */
 .parallax {
   background-image: url("");
-  min-height: 500px;
+  min-height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,54 +43,29 @@
   background-color: rgb(0 0 0 / 30%);
 }
 
-.product-text-w {
-  font-size: 20px;
-  font-weight: bold;
+.product-container {
+  min-height: 300px;
+  background-size: cover;
+  overflow: hidden;
+}
+.product-text-w,
+.product-text-c,
+.product-text-cp {
   color: white;
-  /* position: absolute; */
-  top: 50%;
-  left: 50%;
-  /* transform: translate(-50%, -50%); */
-  text-align: center;
-  padding: 20px;
-  min-width: 80%;
+  min-width: 100%;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-text-w {
   background-color: #70592ea9;
 }
-.product-text-w {
-  padding: 40px 40px;
-}
 .product-text-c {
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  /* position: absolute; */
-  top: 50%;
-  left: 50%;
-  /* transform: translate(-50%, -50%); */
-  text-align: center;
-  padding: 20px;
-  min-width: 80%;
   background-color: #3d07008f;
 }
-.product-text-c {
-  padding: 40px 40px;
-}
 .product-text-cp {
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  /* position: absolute; */
-  top: 50%;
-  left: 50%;
-  /* transform: translate(-50%, -50%); */
-  text-align: center;
-  padding: 20px;
-  min-width: 80%;
   background-color: #3f290062;
-}
-.product-text-cp {
-  padding: 40px 40px;
-  /* background-color: rgb(0 0 0 / 60%); */
 }
 
 /* *****************index page ends here************* */

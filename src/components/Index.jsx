@@ -2,13 +2,15 @@ import React from "react";
 
 const index = () => {
   return (
-    <div>
-      <div class="index" style={{ backgroundImage: `url("/.jpg")` }}>
+    <div id="index mt-2">
+      <div
+        class="index"
+        style={{ backgroundImage: `url("/.jpg")`, marginTop: "65px" }}>
         <div className="index-bar">
-          <h2 class="texts">
+          {/* <h2 class="texts">
             We Focus on Building Relationships & Providing Best Quality to Our
             Buyers.
-          </h2>
+          </h2> */}
         </div>
       </div>
       <div
@@ -17,22 +19,19 @@ const index = () => {
         <div className="parallax-text">Welcome to Primex India Inc.</div>
       </div>
       <br />
-      <div className="container product">
-        <h1 class=" primary-heading text-center">OUR PRODUCTS</h1>
+      <div className="container product mt-5">
+        <p class="secondary-heading text-center mb-3">What We Make</p>
+        <h1 class="primary-heading text-center">OUR PRODUCTS</h1>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
             <div
-              className="rounded"
+              className="rounded product-container"
               style={{
                 backgroundImage: `url("/img/wood.jpg")`,
-                minHeight: "300px",
-                backgroundSize: "cover",
               }}>
               <div className="product-text-w text-center">
                 <div>
-                  <h3>
-                    <b>WOODEN ITEMS</b>
-                  </h3>
+                  <h3>WOODEN ITEMS</h3>
                   <p>Kitchen-Ware Items</p>
                   <p>Accent Furniture</p>
                   <p>Photo Frames</p>
@@ -43,17 +42,13 @@ const index = () => {
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
             <div
-              className="rounded"
+              className="rounded product-container"
               style={{
                 backgroundImage: `url("/img/copper.jpg")`,
-                minHeight: "300px",
-                backgroundSize: "cover",
               }}>
               <div className="product-text-c text-center">
                 <div>
-                  <h3>
-                    <b>COPPER ITEMS</b>
-                  </h3>
+                  <h3>COPPER ITEMS</h3>
 
                   <p>Candle - Holders</p>
                   <p>Wire Baskets</p>
@@ -65,17 +60,13 @@ const index = () => {
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
             <div
-              className="rounded"
+              className="rounded product-container"
               style={{
                 backgroundImage: `url("/img/brass.jpg")`,
-                minHeight: "300px",
-                backgroundSize: "cover",
               }}>
               <div className="product-text-cp">
-                <div>
-                  <h3>
-                    <b>BRASS ITEMS</b>
-                  </h3>
+                <div className="text-center">
+                  <h3>BRASS ITEMS</h3>
                   <div>
                     <p>Objects & Sculptures</p>
                     <p>Christmas Items</p>
