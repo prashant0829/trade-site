@@ -83,7 +83,6 @@
   font-weight: 900;
   text-align: center;
 }
-
 /* .prooduct-bar {
   font-size: 60px;
   color: white;
@@ -114,7 +113,7 @@
 
 
 /* *******************collection page******************* */
-/* .gallery {
+.gallery {
   border: 1px solid #ccc;
   position: relative;
 }
@@ -137,7 +136,7 @@
   .responsive {
     width: 100%;
   }
-} */
+}
 
 .colllection-section {
 }
