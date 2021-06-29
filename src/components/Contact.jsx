@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+
 
 const contact = () => {
   return (
@@ -30,8 +30,11 @@ const contact = () => {
                 </div>
                 <div className="text">
                   <h2>Address</h2>
-                  <p>Peetal-Nagri, Moradabad-244001, U.P, India</p>
-                </div>
+                  <p>Samardham Street, Nand Colony, 
+                    <br/>Peetal-Nagri, Moradabad-244001, U.P, India</p>
+                    <br/><p>Trinity's Trading Company B.V,
+                    <br/>The Netherlands</p>
+               </div>   
               </div>
               <div className="box">
                 <div className="icon">
@@ -39,7 +42,9 @@ const contact = () => {
                 </div>
                 <div className="text">
                   <h2>Phone</h2>
-                  <p>+91-8979660060</p>
+                  <p>+91-8979660060
+                  / +91-8881180311</p>
+                   +31(0) 621894807(Netherlands)
                 </div>
               </div>
               <div className="box">
@@ -48,7 +53,7 @@ const contact = () => {
                 </div>
                 <div className="text">
                   <h2>Email</h2>
-                  <p>Sales.Primexindia@outlook.com</p>
+                  <p><a href="Sales.Primexindia@outlook.com">Sales.Primexindia@outlook.com</a></p>
                 </div>
               </div>
             </div>
