@@ -13,7 +13,7 @@ function App() {
       <div id="index">
         <Index />
       </div>
-      <div id="about">
+      <div id="about" style={{backgroundColor:"beige"}}>
         <About />
       </div>
       <div id="collection">
@@ -54,14 +54,6 @@ function App() {
                 </li>
               </ul>
             </div>
-            {/* <div className="footer-col">
-              <h4>Home</h4>
-              <ul>
-                <li>
-                  <a href="home.html">Home</a>
-                </li>
-              </ul>
-            </div> */}
 
             <div className="footer-col">
               <h4>Follow us</h4>

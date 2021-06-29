@@ -25,7 +25,6 @@ const about = () => {
                 compliance manufacturing, polishing, plating and other finishes
                 set up in our factory. We are into this handicraft industry
                 since 1992.
-                
                  We ensure accurate communication when
                   planning orders together with our 
                  customers and suppliers, with the
@@ -43,7 +42,6 @@ const about = () => {
           <div class="col-md-6">
             <h3 class="about-h3">WHAT WE DO</h3>
             <div class="box-padding-10">
-              
               <p class="text-muted"><br/>
                To give our customers utmost satisfaction, we
               provide customization facility to all our clients. We are specialized in the 
@@ -65,13 +63,8 @@ const about = () => {
                   Our customers are guaranteed to have access to the highest quality of products, 
                   designed to meet customer demands, from the most discerning markets.
               </p>
-
-             
-             
             </div>
           </div>
-
-          
         </div>
       </div>
     </section>

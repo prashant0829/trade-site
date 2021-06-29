@@ -83,7 +83,7 @@
 .product-text-c{
  padding: 40px 40px;
 }
-.product-text-cp{
+.product-text-b{
   font-size: 20px;
   font-weight: bold;
   color: white;
@@ -96,13 +96,12 @@
   min-width: 80%;
   background-color: #e7ab3c62;
 }
-.product-text-cp{
-  
-  
+.product-text-b{
   padding: 40px 40px;
-  /* background-color: rgb(0 0 0 / 60%); */
 }
-
+.product-text-w,.product-text-b ,.product-text-c{
+  margin-bottom: 2px;
+}
 
 /* *****************index page ends here************* */
 

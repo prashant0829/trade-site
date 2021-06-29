@@ -28,12 +28,13 @@ const index = () => {
                 minHeight: "300px",
                 backgroundSize: "cover",
               }}>
-              <div className="product-text-w text-center"><h4><b>WOODEN ITEMS</b></h4>
-
-                <p>Kitchen-Ware Items</p>
-                <p>Accent Furniture</p>
-                <p>Photo Frames</p>
-                <p>Wall Arts</p>
+              <div className="product-text-w "><h4 className="text-center"><b>WOODEN ITEMS</b></h4>
+                < >
+                <p>Candle-Holders</p>
+                <li>Wire Baskets</li>
+                <li>Mirrors</li>
+                 <li>Globes</li>
+              </>
              </div>
               </div>
           </div>
@@ -47,7 +48,7 @@ const index = () => {
               }}>
               <div className="product-text-c"><h4><b>COPPER ITEMS</b></h4>
               <ul >
-                <li>Candle - Holders</li>
+                <li>Candle-Holders</li>
                 <li>Wire Baskets</li>
                 <li>Mirrors</li>
                  <li>Globes</li>
