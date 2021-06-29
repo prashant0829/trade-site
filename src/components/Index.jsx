@@ -2,7 +2,7 @@ import React from "react";
 
 const index = () => {
   return (
-    <div id="index mt-2">
+    <div>
       <div
         class="index"
         style={{ backgroundImage: `url("/.jpg")`, marginTop: "65px" }}>
