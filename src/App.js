@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="" style={{ scrollBehavior: "smooth" }}>
+    <div className="" style={{ scrollBehavior: "smooth",backgroundColor:"gainsboro"}}>
       <Navbar className="" />
       <div id="index">
         <Index />
@@ -16,10 +16,10 @@ function App() {
       <div id="about" style={{backgroundColor:"beige"}}>
         <About />
       </div>
-      <div id="collection">
+      <div id="collection" style={{backgroundColor:"gainsboro"}}>
         <Collection />
       </div>
-      <div id="contact">
+      <div id="contact" style={{backgroundColor:"beige"}}>
         <Contact />
       </div>
       <footer className="footer">

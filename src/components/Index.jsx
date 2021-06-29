@@ -29,12 +29,11 @@ const index = () => {
                 backgroundSize: "cover",
               }}>
               <div className="product-text-w "><h4 className="text-center"><b>WOODEN ITEMS</b></h4>
-                < >
                 <p>Candle-Holders</p>
-                <li>Wire Baskets</li>
-                <li>Mirrors</li>
-                 <li>Globes</li>
-              </>
+                <p>Wire Baskets</p>
+                <p>Mirrors</p>
+                 <p>Globes</p>
+        
              </div>
               </div>
           </div>
