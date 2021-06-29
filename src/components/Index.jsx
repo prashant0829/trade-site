@@ -28,16 +28,13 @@ const index = () => {
                 minHeight: "300px",
                 backgroundSize: "cover",
               }}>
-              <div className="product-text-w"><h4><b>WOODEN ITEMS</b></h4>
-              <ul>
+              <div className="product-text-w text-center"><h4><b>WOODEN ITEMS</b></h4>
 
-                <li>Kitchen-Ware Items</li>
-                <li>Accent Furniture</li>
-                <li>Photo Frames</li>
-                <li>Wall Arts</li>
-                
-               
-              </ul></div>
+                <p>Kitchen-Ware Items</p>
+                <p>Accent Furniture</p>
+                <p>Photo Frames</p>
+                <p>Wall Arts</p>
+             </div>
               </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
@@ -50,13 +47,10 @@ const index = () => {
               }}>
               <div className="product-text-c"><h4><b>COPPER ITEMS</b></h4>
               <ul >
-                
                 <li>Candle - Holders</li>
                 <li>Wire Baskets</li>
-               
                 <li>Mirrors</li>
                  <li>Globes</li>
-               
               </ul></div>
             </div>
           </div>
@@ -72,14 +66,11 @@ const index = () => {
               <ul >
                 <li>Objects & Sculptures</li>
                 <li>Christmas Items</li>
-                
                 <li>Planters</li>
                 <li>Vases</li>
-                
               </ul></div>
               </div>
           </div>
-          
         </div>
       </div>
     </div>

@@ -65,7 +65,7 @@
 .product-text-w{
   
   padding: 40px 40px;
-  /* background-color: rgb(0 0 0 / 60%); */
+ 
 }
 .product-text-c{
   font-size: 20px;
@@ -81,10 +81,7 @@
   background-color: #9233268f;
 }
 .product-text-c{
-  
-  
-  padding: 40px 40px;
-  /* background-color: rgb(0 0 0 / 60%); */
+ padding: 40px 40px;
 }
 .product-text-cp{
   font-size: 20px;
@@ -150,18 +147,7 @@
   position: relative;
 }
 
-/* .card-img-top{
-    height: 400px;
-    margin: 0px auto;
-    transition: 0.7s ease-out;
-    /* transition: transform .2s; */
 
-
-/* .card-img-top:hover{
-    height: 570px;
-    animation: cubic-bezier(0.55, 0.085, 0.68, 0.53);
-    -webkit-animation: cubic-bezier(0.55, 0.085, 0.68, 0.53);
-} */
 /* *****************collection page ends here*********** */
 
 /* *******************about page******************** */
@@ -207,9 +193,7 @@
   font-weight: 300;
   color: rgb(72, 81, 90);
 }
-/* .container {
-  width: 100%;
-} */
+
 .container .contactinfo {
   display: flex;
   flex-direction: column;
@@ -405,7 +389,5 @@ ul {
 width:"900px" ;
 height:"650px";
 border:0;
-/* allowfullscreen:"" ;
- loading:"lazy"; */
 }
 /* ******************footer ends here************ */
