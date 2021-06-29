@@ -8,7 +8,11 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
+<<<<<<< HEAD
     <div className="" style={{ scrollBehavior: "smooth",backgroundColor:"gainsboro"}}>
+=======
+    <div className="" id="index" style={{ scrollBehavior: "smooth" }}>
+>>>>>>> 5f1a0d7718d2b320ea519c7a9f8b9b15b993c0e5
       <Navbar className="" />
       <div id="index">
         <Index />
@@ -62,18 +66,20 @@ function App() {
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 <a href="#">
-                 <i className="fab fa-skype"></i>
+                  <i className="fab fa-skype"></i>
                 </a>
                 <a href="https://www.instagram.com/shubhamdhall5/ ">
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a href="#">
-                 <i class="fab fa-twitter"></i>
+                  <i class="fab fa-twitter"></i>
                 </a>
               </div>
             </div>
-            <div className="footer-col map"><h4>Our Location</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13983.33943686168!2d78.78505073205307!3d28.813994717542982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390afa54dada7fb3%3A0x6bc8aa29bfc6c2af!2sPital%20Nagri%2C%20Moradabad%2C%20Uttar%20Pradesh%20244001!5e0!3m2!1sen!2sin!4v1624903691118!5m2!1sen!2sin"></iframe> </div>
+            <div className="footer-col map">
+              <h4>Our Location</h4>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13983.33943686168!2d78.78505073205307!3d28.813994717542982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390afa54dada7fb3%3A0x6bc8aa29bfc6c2af!2sPital%20Nagri%2C%20Moradabad%2C%20Uttar%20Pradesh%20244001!5e0!3m2!1sen!2sin!4v1624903691118!5m2!1sen!2sin"></iframe>{" "}
+            </div>
           </div>
         </div>
       </footer>
