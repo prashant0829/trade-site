@@ -3,7 +3,8 @@ import React from "react";
 const index = () => {
   return (
     <div>
-      <div class="parallax"
+      <div
+        class="parallax"
         style={{ backgroundImage: `url("/img/parallax.jpg")` }}>
         <div className="parallax-text">Welcome to Primex India Inc.</div>
       </div>
@@ -12,23 +13,30 @@ const index = () => {
         <h1 class="primary-heading text-center">OUR PRODUCTS</h1>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
-            <div className="rounded product-container"
+            <div
+              className="rounded product-container"
               style={{
                 backgroundImage: `url("/img/wood.jpg")`,
               }}>
               <div className="product-text-w text-center">
                 <div>
                   <h3>WOODEN ITEMS</h3>
-                  <p className="points">Kitchen-Ware Items<br/>
-                  Accent Furniture<br/>
-                  Photo Frames<br/>
-                  Wall Arts</p>
+                  <p className="points">
+                    Kitchen-Ware Items
+                    <br />
+                    Accent Furniture
+                    <br />
+                    Photo Frames
+                    <br />
+                    Wall Arts
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
-            <div className="rounded product-container"
+            <div
+              className="rounded product-container"
               style={{
                 backgroundImage: `url("/img/copper.jpg")`,
               }}>
@@ -36,16 +44,21 @@ const index = () => {
                 <div>
                   <h3>COPPER ITEMS</h3>
                   <p className="points">
-                  Candle - Holders<br/>
-                  Wire Baskets<br/>
-                  Mirrors<br/>
-                  Globes</p>
-               </div>
+                    Candle - Holders
+                    <br />
+                    Wire Baskets
+                    <br />
+                    Mirrors
+                    <br />
+                    Globes
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
-            <div className="rounded product-container"
+          <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2 mb-5">
+            <div
+              className="rounded product-container"
               style={{
                 backgroundImage: `url("/img/brass.jpg")`,
               }}>
@@ -54,10 +67,14 @@ const index = () => {
                   <h3>BRASS ITEMS</h3>
                   <div>
                     <p className="points">
-                    Objects & Sculptures<br/>
-                    Christmas Items<br/>
-                    Planters<br/>
-                    Vases</p>
+                      Objects & Sculptures
+                      <br />
+                      Christmas Items
+                      <br />
+                      Planters
+                      <br />
+                      Vases
+                    </p>
                   </div>
                 </div>
               </div>

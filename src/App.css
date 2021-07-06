@@ -2,19 +2,18 @@
 
 .navbar-nav {
   margin-left: auto;
-  padding-left: 800px;
+  /* padding-left: 800px; */
 }
 .navbar-brand img {
   max-width: 150px;
- /* float: left; */
+  /* float: left; */
 }
 .navbar-nav .nav-item {
   float: right;
   padding-left: 24px;
-  
 }
-.navbar-brand{
- padding-left: -20px;
+.navbar-brand {
+  padding-left: -20px;
 }
 
 /* ***********navbar ends here****************** */
@@ -74,22 +73,19 @@
 .product-text-cp {
   background-color: #3f290062;
 }
-.points{
+.points {
   font-size: larger;
- 
 }
 /* *****************index page ends here************* */
 
 /* *******************collection page******************* */
 
-
-
-.card{
-      transition: 10s ease-in-out;
-   }
-.card :hover{
-      filter:brightness(80%);
-  }
+.card {
+  transition: 10s ease-in-out;
+}
+.card :hover {
+  filter: brightness(80%);
+}
 
 /* *****************collection page ends here*********** */
 
@@ -105,13 +101,15 @@
   letter-spacing: 5px;
   color: #949494;
 }
-.text-muted {
-  font-size: larger;
+.text-lg {
+  font-size: 1.1rem;
+  color: #484848;
+  text-align: justify;
 }
-.col-md-6{
+.col-md-6 {
   padding: 30px;
 }
-.about{
+.about {
   padding-top: 5%;
 }
 /* *********************about page ends here************** */
@@ -237,11 +235,27 @@ h2 {
   .container .contactinfo {
   }
 }
-.follow-us{
+.follow-us {
   margin-left: 20%;
 }
-.box .icon{
+.box .icon {
   margin-left: 10%;
+}
+@media (max-width: 600px) {
+  .contactForm {
+    padding: 10px;
+  }
+  .container .contactinfo .box .icon {
+    min-width: 40px;
+    height: 40px;
+    background: rgb(76, 145, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 12px;
+  }
 }
 
 /* ***************contact page ends here*********** */
@@ -254,16 +268,15 @@ h2 {
   font-family: "Nunito", sans-serif;
 }
 
-footer{
- padding: 10px 0;
-    background-color: #101010;
-    color:#9d9d9d;
-    bottom: 0;
-    width: 100%;
-    /* position: fixed; */
-    left: 0;
-    bottom: 0;
+footer {
+  padding: 10px 0;
+  background-color: #101010;
+  color: #9d9d9d;
+  bottom: 0;
+  width: 100%;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
 }
-
 
 /* ******************footer ends here************ */

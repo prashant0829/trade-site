@@ -1,23 +1,33 @@
-import emailjs from "emailjs-com"
+// import emailjs from "emailjs-com";
 import React from "react";
 
-
 const contact = () => {
-  function sendEmail(e){
-    e.preventDefault();
+  // function sendEmail(e) {
+  //   e.preventDefault();
 
-    emailjs.sendForm('service_miwa01u','template_ly2waxa',e.target,'user_Ad70JDE0ywSrz3d1hfGys'
-    ).then(res=>{
-      console.log(res);
-    }).catch(err=> console.log(err));
-  }
+  //   emailjs
+  //     .sendForm(
+  //       "service_miwa01u",
+  //       "template_ly2waxa",
+  //       e.target,
+  //       "user_Ad70JDE0ywSrz3d1hfGys"
+  //     )
+  //     .then((res) => {
+  //       console.log(res);
+  //     })
+  //     .catch((err) => console.log(err));
+  // }
 
   return (
-    <section className="container"><br/><br/><br/>
+    <section className="container">
+      <br />
+      <br />
+      <br />
       <div className="content">
         <p className="secondary-heading text-center">Wanna Have A Coffee</p>
         <p className="primary-heading text-center">
-          We'd love to hear from you!</p>
+          We'd love to hear from you!
+        </p>
         <div className="row justify-content-center text-center">
           <div className="col col-lg-6">
             <p>
@@ -39,8 +49,11 @@ const contact = () => {
                 </div>
                 <div className="text">
                   <h2>Address</h2>
-                  <p>Samardham Street, Nand Colony,
-                  <br/>Peetal-Nagri, Moradabad-244001, U.P, India</p>
+                  <p>
+                    Samardham Street, Nand Colony,
+                    <br />
+                    Peetal-Nagri, Moradabad-244001, U.P, India
+                  </p>
                 </div>
               </div>
 
@@ -50,10 +63,12 @@ const contact = () => {
                 </div>
                 <div className="text">
                   <p>
-                  <h2>Other branch's</h2>
-                  Trinity's Trading Company B.V,
-                  <br/>The Netherlands</p>
-                </div>   
+                    <h2>Other branch's</h2>
+                    Trinity's Trading Company B.V,
+                    <br />
+                    The Netherlands
+                  </p>
+                </div>
               </div>
               <div className="box">
                 <div className="icon">
@@ -61,16 +76,15 @@ const contact = () => {
                 </div>
                 <div className="text">
                   <h2>Phone</h2>
-                  <p>+91-8979660060
-                  / +91-8881180311</p>
-                   +31(0) 621894807(Netherlands)
+                  <p>+91-8979660060 / +91-8881180311</p>
+                  +31(0) 621894807(Netherlands)
                 </div>
               </div>
               <div className="text">
                 <h2 className="follow-us">Follow us here</h2>
               </div>
               <div className="box">
-                <div className="icon"> 
+                <div className="icon">
                   <i class="fab fa-instagram"></i>
                 </div>
                 <div className="icon">
@@ -80,14 +94,16 @@ const contact = () => {
                   <i class="fab fa-facebook-square"></i>
                 </div>
                 <div className="icon">
-                  <i className="fas fa-envelope"><a href="Sales.Primexindia@outlook.com"></a></i>
+                  <i className="fas fa-envelope">
+                    <a href="Sales.Primexindia@outlook.com"></a>
+                  </i>
                 </div>
               </div>
             </div>
           </div>
           <div className="col col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="contactForm">
-              <form onSubmit={sendEmail}>
+              <form>
                 <h2>Send Message</h2>
                 <div className="inputbox">
                   <input type="text" name="name " required="required" />
@@ -102,14 +118,13 @@ const contact = () => {
                   <span>Type your Message...</span>
                 </div>
                 <div className="inputbox">
-                  <input type="submit"   value="send" />
+                  <input type="submit" value="send" />
                 </div>
               </form>
             </div>
           </div>
         </div>
       </div>
-      
     </section>
   );
 };
