@@ -47,7 +47,7 @@ const contact = () => {
                 </div>
                 <div className="text">
                   <p>
-                    <h2>Other branch's</h2>
+                    <h2>Other Branch</h2>
                     Trinity's Trading Company B.V,
                     <br />
                     The Netherlands
