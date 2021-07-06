@@ -155,6 +155,7 @@
   border-radius: 50%;
   font-size: 22px;
   margin: 20px;
+  cursor: pointer;
 }
 .container .contactinfo .box .text {
   display: flex;
