@@ -21,7 +21,7 @@
 /*********************index page********************* */
 .parallax {
   background-image: url("");
-  min-height: 550px;
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@
 .container .contactinfo .box .icon {
   min-width: 45px;
   height: 45px;
-  background: rgb(171 224 255);
+  background: rgb(76, 145, 185);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,6 +249,7 @@ h2 {
   .container .contactinfo .box .icon {
     min-width: 40px;
     height: 40px;
+    background: rgb(76, 145, 185);
     display: flex;
     justify-content: center;
     align-items: center;

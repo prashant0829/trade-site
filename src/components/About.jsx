@@ -12,7 +12,14 @@ const about = () => {
           <div class="col-md-6">
             <h3 class="about-h3 text-center">WHO WE ARE</h3>
             <br />
-            <p class="text-lg" style={{ color: "#484848" }}>
+            <p
+              class="text-lg"
+              style={{ color: "#484848" }}
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay=""
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out">
               We are a quality driven artisan & exporters of premium
               metal/wooden home-decor, garden, kitchen-ware items and other
               indian handicraft items based from Moradabad City.
@@ -30,7 +37,13 @@ const about = () => {
           <div class="col-md-6">
             <h3 class="about-h3 text-center">WHAT WE DO</h3>
             <br />
-            <p class="text-lg">
+            <p
+              class="text-lg"
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay=""
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out">
               To give our customers utmost satisfaction, we provide
               customization facility to all our clients. We are specialized in
               the most exclusive high-end products.We provide efficient services

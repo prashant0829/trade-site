@@ -22,7 +22,7 @@ function App() {
       <div id="collection" style={{ backgroundColor: "whitesmoke" }}>
         <Collection />
       </div>
-      <div id="contact" style={{ backgroundColor: "#f2fbfa" }}>
+      <div id="contact" style={{ backgroundColor: "#ebeff1" }}>
         <Contact />
       </div>
       <footer className="footer">

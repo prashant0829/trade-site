@@ -12,7 +12,13 @@ const index = () => {
         <p class="secondary-heading text-center mb-3">What We Make</p>
         <h1 class="primary-heading text-center">OUR PRODUCTS</h1>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
+          <div
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay=""
+            data-aos-duration="700"
+            data-aos-easing="ease-in-out"
+            class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
             <div
               className="rounded product-container"
               style={{
@@ -34,7 +40,13 @@ const index = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
+          <div
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay=""
+            data-aos-duration="700"
+            data-aos-easing="ease-in-out"
+            class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2">
             <div
               className="rounded product-container"
               style={{
@@ -56,7 +68,13 @@ const index = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2 mb-5">
+          <div
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay=""
+            data-aos-duration="700"
+            data-aos-easing="ease-in-out"
+            class="col-lg-4 col-md-4 col-sm-4 col-sx-12 p-2 mb-5">
             <div
               className="rounded product-container"
               style={{
