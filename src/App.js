@@ -29,7 +29,7 @@ function App() {
         <div className="container">
           <center>
             <p>
-              Copyright &copy; All Rights Reserved | Contact Us: +91 9000000000
+              Copyright &copy; <a href="https://silihat.com/" style={{ color : "white"}} >silihat.com</a>All Rights Reserved
             </p>
           </center>
         </div>
