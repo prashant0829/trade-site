@@ -2,22 +2,6 @@
 import React from "react";
 
 const contact = () => {
-  // function sendEmail(e) {
-  //   e.preventDefault();
-
-  //   emailjs
-  //     .sendForm(
-  //       "service_miwa01u",
-  //       "template_ly2waxa",
-  //       e.target,
-  //       "user_Ad70JDE0ywSrz3d1hfGys"
-  //     )
-  //     .then((res) => {
-  //       console.log(res);
-  //     })
-  //     .catch((err) => console.log(err));
-  // }
-
   return (
     <section className="container">
       <br />
@@ -85,7 +69,13 @@ const contact = () => {
               </div>
               <div className="box">
                 <div className="icon">
+<<<<<<< HEAD
                   <a href="https://instagram.com/primexindiainc?utm_medium=copy_link"><i class="fab fa-instagram" style={{ color : "black"}}></i></a>
+=======
+                  <a href="https://instagram.com/primexindiainc?utm_medium=copy_link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+>>>>>>> a5d959bd060170c0262e386105f2dce285f2ad01
                 </div>
                 {/* <div className="icon">
                   <i class="fab fa-skype"></i>
@@ -94,9 +84,15 @@ const contact = () => {
                   <i class="fab fa-facebook-square"></i>
                 </div> */}
                 <div className="icon">
+<<<<<<< HEAD
                  
                     <a href="mailto:shubhamdhall5@gmail.com"><i className="fas fa-envelope" style={{ color : "black"}} ></i></a>
               
+=======
+                  <a href="Sales.Primexindia@outlook.com">
+                    <i className="fas fa-envelope"></i>
+                  </a>
+>>>>>>> a5d959bd060170c0262e386105f2dce285f2ad01
                 </div>
               </div>
             </div>
