@@ -85,17 +85,17 @@ const contact = () => {
               </div>
               <div className="box">
                 <div className="icon">
-                  <a href="https://instagram.com/primexindiainc?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                  <a href="https://instagram.com/primexindiainc?utm_medium=copy_link"><i class="fab fa-instagram" style={{ color : "black"}}></i></a>
                 </div>
-                <div className="icon">
+                {/* <div className="icon">
                   <i class="fab fa-skype"></i>
-                </div>
-                <div className="icon">
+                </div> */}
+                {/* <div className="icon">
                   <i class="fab fa-facebook-square"></i>
-                </div>
+                </div> */}
                 <div className="icon">
                  
-                    <a href="Sales.Primexindia@outlook.com"><i className="fas fa-envelope"></i></a>
+                    <a href="mailto:shubhamdhall5@gmail.com"><i className="fas fa-envelope" style={{ color : "black"}} ></i></a>
               
                 </div>
               </div>
@@ -118,7 +118,7 @@ const contact = () => {
                   <span>Type your Message...</span>
                 </div>
                 <div className="inputbox">
-                  <input type="submit" value="send" />
+                  <input type="submit" value="Send" />
                 </div>
               </form>
             </div>

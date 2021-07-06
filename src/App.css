@@ -237,7 +237,7 @@ h2 {
   }
 }
 .follow-us {
-  margin-left: 20%;
+  margin-left: 10%;
 }
 .box .icon {
   margin-left: 10%;
@@ -256,6 +256,8 @@ h2 {
     border-radius: 50%;
     font-size: 22px;
     margin: 12px;
+  
+    
   }
 }
 
