@@ -16,15 +16,15 @@ const about = () => {
               We are a quality driven artisan & exporters of premium
               metal/wooden home-decor, garden, kitchen-ware items and other
               indian handicraft items based from Moradabad City.
-              <br /> Our products are designed oriented and made especially for
-              those who believe in having the best of everything. We are
-              specialized for Electro Phoretic Lacquer (E.P.L) items.We have a
-              complete in-house compliance manufacturing, polishing, plating and
-              other finishes set up in our factory.
-              <br /> "At Primex India Inc." we never compromised in our products
-              quality because our customer's satisfaction is the biggest thing
-              for us because we believe in good & long-lasting business
-              relationship with any of our customers.{" "}
+              <br /> <br /> Our products are designed oriented and made
+              especially for those who believe in having the best of everything.
+              We are specialized for Electro Phoretic Lacquer (E.P.L) items.We
+              have a complete in-house compliance manufacturing, polishing,
+              plating and other finishes set up in our factory.
+              <br /> <br /> "At Primex India Inc." we never compromised in our
+              products quality because our customer's satisfaction is the
+              biggest thing for us because we believe in good & long-lasting
+              business relationship with any of our customers.{" "}
             </p>
           </div>
           <div class="col-md-6">
@@ -36,7 +36,7 @@ const about = () => {
               the most exclusive high-end products.We provide efficient services
               due to our vast network, allowing us to meet most of our
               customer's demands with the highest quality possible.
-              <br />
+              <br /> <br />
               We have marched at the forefront of the handicraft industry as a
               manufacturer and exporter of superior quality handcrafted items
               like candle holders,Accent Furniture, wall decorative, Serving
