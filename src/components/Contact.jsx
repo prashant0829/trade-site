@@ -69,7 +69,9 @@ const contact = () => {
               </div>
               <div className="box">
                 <div className="icon">
-                  <a href="https://instagram.com/primexindiainc?utm_medium=copy_link"><i class="fab fa-instagram" style={{ color : "black"}}></i></a>
+                  <a href="https://instagram.com/primexindiainc?utm_medium=copy_link">
+                    <i class="fab fa-instagram" style={{ color: "black" }}></i>
+                  </a>
                 </div>
                 {/* <div className="icon">
                   <i class="fab fa-skype"></i>
@@ -78,9 +80,11 @@ const contact = () => {
                   <i class="fab fa-facebook-square"></i>
                 </div> */}
                 <div className="icon">
-                 
-                    <a href="mailto:shubhamdhall5@gmail.com"><i className="fas fa-envelope" style={{ color : "black"}} ></i></a>
-              
+                  <a href="mailto:shubhamdhall5@gmail.com">
+                    <i
+                      className="fas fa-envelope"
+                      style={{ color: "black" }}></i>
+                  </a>
                 </div>
               </div>
             </div>
