@@ -2,22 +2,6 @@
 import React from "react";
 
 const contact = () => {
-  // function sendEmail(e) {
-  //   e.preventDefault();
-
-  //   emailjs
-  //     .sendForm(
-  //       "service_miwa01u",
-  //       "template_ly2waxa",
-  //       e.target,
-  //       "user_Ad70JDE0ywSrz3d1hfGys"
-  //     )
-  //     .then((res) => {
-  //       console.log(res);
-  //     })
-  //     .catch((err) => console.log(err));
-  // }
-
   return (
     <section className="container">
       <br />
@@ -85,7 +69,9 @@ const contact = () => {
               </div>
               <div className="box">
                 <div className="icon">
-                  <i class="fab fa-instagram"></i>
+                  <a href="https://instagram.com/primexindiainc?utm_medium=copy_link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
                 </div>
                 <div className="icon">
                   <i class="fab fa-skype"></i>
@@ -95,7 +81,7 @@ const contact = () => {
                 </div>
                 <div className="icon">
                   <a href="Sales.Primexindia@outlook.com">
-                    <i className="fas fa-envelope"></i>{" "}
+                    <i className="fas fa-envelope"></i>
                   </a>
                 </div>
               </div>
