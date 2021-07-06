@@ -94,9 +94,9 @@ const contact = () => {
                   <i class="fab fa-facebook-square"></i>
                 </div>
                 <div className="icon">
-                  <i className="fas fa-envelope">
-                    <a href="Sales.Primexindia@outlook.com"></a>
-                  </i>
+                  <a href="Sales.Primexindia@outlook.com">
+                    <i className="fas fa-envelope"></i>{" "}
+                  </a>
                 </div>
               </div>
             </div>
