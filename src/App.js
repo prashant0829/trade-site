@@ -29,7 +29,14 @@ function App() {
         <div className="container">
           <center>
             <p>
-              Copyright &copy; <a href="https://silihat.com/" style={{ color : "white"}} >silihat.com </a>All Rights Reserved
+              Copyright &copy;{" "}
+              <a
+                href="https://silihat.com/"
+                target="blank"
+                style={{ color: "white" }}>
+                silihat.com{" "}
+              </a>
+              All Rights Reserved
             </p>
           </center>
         </div>
