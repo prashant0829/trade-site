@@ -29,15 +29,7 @@ function App() {
         <div className="container">
           <center>
             <p>
-<<<<<<< HEAD
               Copyright &copy; <a href="https://silihat.com/" style={{ color : "white"}} >silihat.com</a>All Rights Reserved
-=======
-              Copyright &copy;{" "}
-              <a href="https://silihat.com/" style={{ color: "white" }}>
-                SiliHat
-              </a>{" "}
-              All Rights Reserved | Contact Us: +91 9000000000
->>>>>>> a5d959bd060170c0262e386105f2dce285f2ad01
             </p>
           </center>
         </div>
